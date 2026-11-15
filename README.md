@@ -32,8 +32,8 @@ Aplicación web full stack para gestionar y mostrar un catálogo de ropa masculi
 ```bash
 cd backend
 npm install
-cp .env.example .env     # completar MONGODB\_URI con tu cadena de Atlas
-npm run seed             # (opcional) carga 12 productos de ejemplo
+cp .env.example .env     
+npm run seed             
 npm run dev
 ```
 
@@ -42,7 +42,7 @@ npm run dev
 ```bash
 cd frontend
 npm install
-cp .env.example .env     # VITE\_API\_URL=http://localhost:4000/api
+cp .env.example .env     
 npm run dev
 ```
 
